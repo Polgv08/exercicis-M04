@@ -1,0 +1,158 @@
+body {
+    background-color: #cccccc;
+}
+
+#Header {
+    background-image: url(PaisajeFondo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-bottom: 8%;
+    div {
+        margin: 0px;
+        font-size: 20px;
+    }
+    h1 {
+        font-size: 50px;
+    }
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    a {
+        float: right;
+        border: 3px solid blue;
+        padding: 3px;
+        margin-top: 50px;
+        height: fit-content;
+    }
+    a:hover {
+        background-color: blue;
+        color: white;
+    }
+    a:visited {
+        color: green;
+    }
+    a:link {
+        background-color: white;
+        color: blue;
+    }
+    a:active {
+        color: blue;
+    }
+}
+
+#Photos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.box {
+    box-sizing: border-box;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 50% 25% 25%;
+    grid-template-areas: 
+        "Foto Foto"
+        "Titular Titular"
+        "Conservacio Poblacio";
+        row-gap: 2px;
+    border-top: 5px solid black;
+    border-right: 5px solid black;
+    border-left: 5px solid black;
+    background-color: white;
+    height: 500px;
+    width: 400px;
+    font-family: 'Courier New', Courier, monospace;
+    margin-top: 80px;
+    color: white;
+    background-color: #404040;
+}
+
+.Foto {
+    position: static;
+    grid-area: Foto;
+}
+
+#Eleffo {
+    background-image: url(Elefante.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-bottom: 2px dashed black;
+}
+
+#Ossu {
+    background-image: url(OsoHormiguero.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-bottom: 2px dashed black;
+}
+
+#Rhino {
+    background-image: url(Rinoceronte.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-bottom: 2px dashed black;
+}
+
+.Titular {
+    position: relative;
+    grid-area: Titular;
+    padding: 10px;
+    p {
+        margin: 0px;
+        font-weight: bold;
+    }
+    border-bottom: 2px solid black;
+}
+
+.Cons {
+    position: static;
+    grid-area: Conservacio;
+    border-right: 2px solid black;
+    text-align: center;
+    p {
+        margin: 0px;
+        color: red;
+    }
+    background-color: #808080;
+}
+.Pobl {
+    position: static;
+    grid-area: Poblacio;
+    border-left: 2px solid black;
+    text-align: center;
+    p {
+        margin: 0px;
+        color: red;
+    }
+    background-color: #808080;
+}
+
+#Foot {
+    position: fixed;
+    bottom: 0px;
+    background-color: aqua;
+    width: 100%;
+}
+
+h2 {
+    margin-top: 5%;
+}
+
+#Anything {
+    border-bottom: 5px solid black;
+    padding-bottom: 20px;
+}
+
+#Taula {
+    float: right;
+    margin-bottom: 18%;
+    td {
+        border: 1px solid blue;
+    }
+}

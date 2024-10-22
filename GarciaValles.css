@@ -1,0 +1,18 @@
+body {
+    background-color: aqua;
+}
+
+h1,h2,h3,h4,h5,h6 {
+    text-align: center;
+    color: red;
+    border: 5px solid black;
+    background-color: grey;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.Games {
+    text-align: center;
+    border: 3px solid yellow;
+    border-radius: 20px;
+    margin-right: 40%;
+}

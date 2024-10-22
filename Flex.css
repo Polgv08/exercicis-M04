@@ -1,0 +1,13 @@
+header {
+    background-color: black;
+    color: white;
+    padding: 10%;
+    margin-bottom: 20px;
+}
+header > a {
+    margin: 30px;
+    color: white;
+}
+div < div {
+    display: flex;
+}
